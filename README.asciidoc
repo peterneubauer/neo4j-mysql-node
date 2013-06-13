@@ -1,0 +1,22 @@
+A POC showing an integration between MySQL, Neo4j and Node.js
+=============================================================
+
+Running on OSX
+==============
+
+- Install MySQL
+
+----
+brew install mysql
+mysql.server start
+----
+
+- create the mysql user `me`
+
+----
+mysql
+mysql> CREATE USER 'me'@'localhost' IDENTIFIED BY 'secret';
+----
+
+
+
