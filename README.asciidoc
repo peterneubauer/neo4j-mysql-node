@@ -16,7 +16,18 @@ mysql.server start
 ----
 mysql
 mysql> CREATE USER 'me'@'localhost' IDENTIFIED BY 'secret';
+mysql> GRANT ALL ON *.* TO 'me'@'localhost';
 ----
+
+- Install Neo4j
+
+----
+brew install neo4j
+neo4j start
+----
+
+
+
 
 
 

@@ -1,15 +1,16 @@
 {
-  "name": "neo4j-mysql-node",
-  "version": "0.0.1",
-  "private": true,
-  "engines": {
-    "node":"0.8.23",
-    "npm":"1.1.49"
-  },
-  "scripts": {
-    "start": "node app"
-  },
-  "dependencies": {
-    "mysql":">1.0.0"
-  }
+    "name": "neo4j-mysql-node",
+    "version": "0.0.1",
+    "private": true,
+    "engines": {
+        "node": "0.8.23",
+        "npm": "1.1.49"
+    },
+    "scripts": {
+        "start": "node app"
+    },
+    "dependencies": {
+        "mysql": ">1.0.0",
+        "neo4j": ">0.2.0"
+    }
 }
